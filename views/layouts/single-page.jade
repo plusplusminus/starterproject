@@ -1,0 +1,89 @@
+doctype html
+html(lang="en")
+    head
+        title= "NSRI Prototype"
+        block scripts
+            link( href="assets/css/core.css" rel="stylesheet")
+            link( rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css")
+    body
+        block menu
+            nav.navbar.navbar-dark.bg-inverse.small.navbar-fixed-top.navbar-secondary
+                .container
+                    form.form-inline.pull-md-right
+                      input.form-control.form-control-sm(type="text" placeholder="Search")
+                      button.btn.btn-primary.btn-sm(type="submit") Search
+                    ul.nav.navbar-nav.pull-md-right
+                        li.nav-item
+                            a.nav-link(href="#") Home
+                        li.nav-item
+                            a.nav-link(href="#") About Us
+                        li.nav-item
+                            a.nav-link(href="#") Contact Us
+                        li.nav-item
+                            a.nav-link(href="#")
+                                i.fa.fa-facebook-square
+                        li.nav-item
+                            a.nav-link(href="#")
+                                i.fa.fa-twitter-square
+                        li.nav-item
+                            a.nav-link(href="#")
+                                i.fa.fa-flickr
+                        li.nav-item
+                            a.nav-link(href="#")
+                                i.fa.fa-rss-square
+            .container
+                nav.navbar.bg-faded.navbar-primary
+                    a.navbar-brand(href="#")
+                        strong NSRI Sea Rescue
+                    ul.nav.navbar-nav.pull-md-right
+                        li.nav-item.dropdown
+                            a.nav-link.dropdown-toggle(data-toggle="dropdown", href="#") Rescue Bases
+                            .dropdown-menu
+                                a.dropdown-item(href='#') XXX
+                                a.dropdown-item(href='#') XXXX
+                                a.dropdown-item(href='#') XXXXX
+                        li.nav-item
+                            a.nav-link(href="#") Get Involved
+                        li.nav-item
+                            a.nav-link(href="#") Win
+                        li.nav-item
+                            a.nav-link(href="#") Events
+                        li.nav-item
+                            a.nav-link(href="#") Waterwise Acadamy
+                        li.nav-item
+                            a.nav-link(href="#") SafeTrx
+            .container
+                br
+                .row
+                    .col-md-8
+                        p.lead
+                            em The Charity that Saves Lives on South African Waters
+                    .col-md-4
+                        ul.nav.navbar-nav.pull-md-right
+                            li.nav-item
+                                a.btn.btn-success(href="#") Donate
+                            li.nav-item
+                                button.btn.btn-danger(type='button', data-toggle='collapse', data-target='#collapseExample', aria-expanded='false', aria-controls='collapseExample')
+                                    i.fa.fa-phone
+                                    |  Emergency Numbers
+                                .collapse#collapseExample
+                                    .card.card-block
+                                    | 112
+        block content
+
+        block foot
+            footer.footer
+                .container
+                    .row
+                        .col-md-6
+                            p sitemap and links
+                        .col-md-6
+                            p newsletter
+                    .row
+                        .col-md-12
+                            p legal &amp; attribution
+        block footscripts
+            script(src="bower/jquery/dist/jquery.min.js")
+            script(src="bower/bootstrap/dist/js/bootstrap.min.js")
+            script(src="bower/holderjs/holder.js")
+            script(src="/assets/js/general.js")

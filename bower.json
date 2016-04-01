@@ -1,0 +1,22 @@
+{
+  "name": "XXX",
+  "description": "New Project",
+  "main": "index.js",
+  "authors": [
+    "Sergio Pellegrini <sergio@plusplusminus.co.za> (http://plusplusmoinus.co.za/)"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/plusplusminus/xxx",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.2",
+    "holderjs": "^2.9.3"
+  }
+}

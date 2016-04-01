@@ -1,0 +1,33 @@
+{
+  "name": "xxx",
+  "version": "1.0.0",
+  "description": "A new project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Sergio Pellegrini <sergio@plusplusminus.co.za> (http://plusplusmoinus.co.za/)",
+  "license": "ISC",
+  "dependencies": {
+    "consolidate": "^0.13.1",
+    "express": "^4.13.1",
+    "handlebars": "^3.0.3",
+    "jade": "^1.11.0",
+    "lodash": "^3.10.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-filter": "^3.0.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-uglifycss": "^1.0.6",
+    "sassdoc": "^2.1.20"
+  }
+}
